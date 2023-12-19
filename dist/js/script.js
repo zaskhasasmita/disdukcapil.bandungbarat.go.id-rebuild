@@ -1,12 +1,12 @@
 // navbar fixed
 window.onscroll = function () {
     const nav = document.querySelector('nav')
-    const fixedNav = nav.offsetTop;
+    const fixedNav = nav.offsetTop
 
     if(window.scrollY > fixedNav) {
-        nav.classList.add('fixed')
+        nav.classList.add('navbar-fixed')
     } else {
-        nav.classList.remove('fixed')
+        nav.classList.remove('navbar-fixed')
     }
 }
 
